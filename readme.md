@@ -66,7 +66,7 @@ import Root from "./root.jsx";
 
 function renderApp() {
 	useHook([useRender], ([useRender]) => {
-		useRender([Root], () => {
+		useRender([Root], ([Root]) => {
 			return <Root />;
 		});
 	});
@@ -86,8 +86,8 @@ import { useHook, useComponent, useRoot } from "sloid";
 import App from "./App.jsx";
 
 const Root = useHook([useComponent], ([useComponent]) => {
-	useComponent([useRoot], () => {
-		useRoot([App], () =>{
+	useComponent([useRoot], ([useRoot]) => {
+		useRoot([App], (App) =>{
 			return <App />;
 		});
 	});
@@ -102,7 +102,7 @@ export default Root;
 import { useHook, useComponent, useSnigal } from "sloid";
 
 const Root = useHook([useComponent], ([useComponent]) => {
-	useComponent([useSnigal], () => {
+	useComponent([useSnigal], ([useSnigal]) => {
 		const [a, setA] = useSnigal(1);
 		return <>{null}</>;
 	});
