@@ -1,6 +1,6 @@
 # Stelve
 
-Stelve is a cybernatically enhanced compiler for SloidJS. Sloid is great when you want to be build large scale apps, but sometimes you just want something more concise that makes creating websites more enjoyable and more cybernetical.
+Stelve is a cybernatically enhanced compiler for SloidJS. Sloid is great when you want to build large scale apps, but sometimes you just want something more concise that makes creating websites more enjoyable and more cybernetical.
 
 Stelve is essentially a language that compiles to SloidJS. It's a language that is designed to be concise and easy to use. It's also designed to be cybernatically enhanced, meaning that it can be used to create cybernatically enhanced websites.
 
